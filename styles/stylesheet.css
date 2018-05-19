@@ -1,0 +1,62 @@
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+   font-weight: 300;
+}
+
+img {
+  max-width: 100%;
+}
+
+#wrapper {
+  margin: 5% auto;
+}
+
+#howdy {
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+#howdy h1 {
+  color: dodgerblue;
+}
+
+#scrump,
+#purchase {
+  text-align: center;
+  border: .5px solid dodgerblue;
+  display: block;
+  margin: 5% auto;
+  color: dodgerblue;
+  background-color: white;
+  border-radius: 45px;
+  padding: 1em;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+#purchase {
+  padding: 1em;
+  margin: 0;
+}
+
+#scrump:hover,
+#purchase:hover {
+  background-color: dodgerblue;
+  color: white;
+  cursor: pointer;
+}
+
+.book-info {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+footer {
+  padding-top: 25%;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+#footer-list {
+  list-style: none;
+  line-height: .5em;
+}
